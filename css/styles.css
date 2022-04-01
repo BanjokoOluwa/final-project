@@ -39,7 +39,7 @@ p {
     text-align: center;
     display: inline-block;
     position: relative;
-    top: 240px;
+    top: 27px;
     left: 50px;
 }
 
@@ -65,12 +65,14 @@ p {
 
 .col-one {
     background-color: gainsboro;
-    background-image: url('/img/beach-sunset.jpg') no-repeat;
 }
 
 .col-two {
     background-color: gainsboro;
-    background-image: url('/img/beach-sunset.jpg');
+}
+
+.col-three {
+    background-color: gainsboro;
 }
 
 .text-back {
@@ -128,4 +130,13 @@ footer {
 /* icons */
 .fa-plane {
     color: white;
+}
+
+/* forms */
+input[type=text] input[type=email],
+textarea {
+    width: 80%;
+    padding: -25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(12, 12, 12);
 }
