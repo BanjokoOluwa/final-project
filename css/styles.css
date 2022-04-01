@@ -27,8 +27,8 @@ p {
 /* Hero */
 .hero {
     border: 1px solid black;
-    background-color: gainsboro;
-    background-image: url('/img/osun.jpg');
+    background-color: rgb(220, 220, 220);
+    background-image: url('../img/osun.jpg');
     height: 400px;
     background-position: bottom right;
 }
@@ -44,10 +44,11 @@ p {
 }
 
 .container {
+    background-color: rgb(255, 255, 255, 0.5);
     width: 1000px;
     margin: auto;
     padding: 15px;
-    height: 1000px;
+    height: 1367px;
 }
 
 .columns {
@@ -64,15 +65,15 @@ p {
 }
 
 .col-one {
-    background-color: gainsboro;
+    background-color: rgb(220, 220, 220);
 }
 
 .col-two {
-    background-color: gainsboro;
+    background-color: rgb(220, 220, 220);
 }
 
 .col-three {
-    background-color: gainsboro;
+    background-color: rgb(220, 220, 220);
 }
 
 .text-back {
@@ -81,7 +82,7 @@ p {
 }
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.5);
     padding: 15px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 10px;
@@ -89,6 +90,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 1;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
 }
 
 ul {
@@ -124,12 +126,36 @@ footer {
     border: 1px solid black;
     text-align: center;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.privandterm {
+    color: rgb(255, 255, 255);
+}
+
+.myname {
+    font-size: larger;
 }
 
 /* icons */
 .fa-plane {
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    color: rgb(255, 255, 255);
+}
+
+.fa-snapchat {
+    color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+    color: rgb(255, 255, 255);
 }
 
 /* forms */
